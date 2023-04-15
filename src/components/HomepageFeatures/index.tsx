@@ -10,32 +10,33 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Show off how hot your takes are. 🔥',
+    Svg: require('@site/static/img/undraw_analytics_re_dkf8.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        You've just written some awesome content. It's blown up, picked up by Reddit and Hacker News.
+        Show off your blogging prowess to potential visitors with a hit counter.
+
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Built with React and Theme-UI. 🚀',
+    Svg: require('@site/static/img/undraw_tailwind_css_1egw.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Don't like my design choices? No problem. You can easily customize the look and feel of your hit counter
+        with Theme-UI to make it your own.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Composable and extendable. 🧩',
+    Svg: require('@site/static/img/undraw_dark_mode_2xam.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+       If you're familiar with React, Tailwind, and Typescript, you've won half the battle. Need dark mode?
+       I got you. Just add a few lines of code and you're good to go.   
       </>
     ),
   },

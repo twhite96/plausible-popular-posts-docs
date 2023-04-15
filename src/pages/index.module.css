@@ -21,3 +21,17 @@
   align-items: center;
   justify-content: center;
 }
+
+h1 {
+  color: white;
+  font-size: 3em;
+}
+
+.dark {
+  color: white;
+  font-size: 2.1em;
+}
+
+/* h1[data-theme='dark'] {
+  color: white;
+} */
